@@ -1,0 +1,60 @@
+{
+  "name": "instabot-core",
+  "version": "0.7.0",
+  "description": "Instagram comment generator robot",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "lint": "eslint src --ext .js,.ts",
+    "lint:fix": "eslint src --fix --ext .js,.ts",
+    "test": "jest --config jest.config.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hebercisco/instabot-core.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "typescript"
+  ],
+  "author": "Hebert Cisco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hebercisco/instabot-core/issues"
+  },
+  "homepage": "https://github.com/hebercisco/instabot-core#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "beautlog": "^0.0.9",
+    "chrome-launcher": "^0.14.0",
+    "chromium": "^3.0.2",
+    "dotenv": "^8.2.0",
+    "pensador-api": "^1.0.0",
+    "puppeteer": "^10.2.0",
+    "puppeteer-core": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^26.0.15",
+    "@types/puppeteer": "^5.4.4",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.11.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.0",
+    "nodemon": "^2.0.7",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
