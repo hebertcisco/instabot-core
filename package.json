@@ -1,6 +1,6 @@
 {
   "name": "instabot-core",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Instagram comment generator robot",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebercisco/instabot-core.git"
+    "url": "git+https://github.com/hebertcisco/instabot-core.git"
   },
   "keywords": [
     "boilerplate",
@@ -27,9 +27,9 @@
   "author": "Hebert Cisco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hebercisco/instabot-core/issues"
+    "url": "https://github.com/hebertcisco/instabot-core/issues"
   },
-  "homepage": "https://github.com/hebercisco/instabot-core#readme",
+  "homepage": "https://github.com/hebertcisco/instabot-core#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "beautlog": "^0.0.9",
