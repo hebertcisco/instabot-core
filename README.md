@@ -42,18 +42,16 @@ yarn add instabot-core
 
 ## Usage
 ```ts
-import instabot from 'instabot-core';
+import { commentService } from 'instabot-core';
 
 const commentForever = async () => {
   while (true) {
-    const configure = {
-      link: 'https://www.instagram.com/p/pOstL1nk/',
-      quaintTagInstagramProfiles: 2,
-      AUTHOR: 'fulano',
-      LOGIN_INSTAGRAM: 'yourLogin',
-      PASSWORD_INSTAGRAM: 'yourStrongPass'
-    };
-    await instabot.comment(configure);
+  await commentService(
+            'https://www.instagram.com/p/pOstL1nk/',
+            'fulano',
+            'yourLogin',
+            'yourStrongPass'
+        );
   }
 };
 
