@@ -36,14 +36,6 @@
 
 > Important! Install nodejs first in your machine: [Download nodejs](https://nodejs.org/en/download/)
 
-```bash
-npm i instabot-core
-```
-or
-```bash
-yarn add instabot-core
-```
-
 Create an file `index.js`, run `npm init` on the terminal and this is the content of the `index.js`:
 
 ```js
@@ -66,6 +58,15 @@ try {
     commentForever();
 }
 
+```
+Install the dependency:
+
+```bash
+npm i instabot-core
+```
+or
+```bash
+yarn add instabot-core
 ```
 
 Now run the command:
