@@ -30,7 +30,11 @@
 
 # Getting started
 
-## Installation
+## Usage
+
+# Installation
+
+> Important! Install nodejs first in your machine: [Download nodejs](https://nodejs.org/en/download/)
 
 ```bash
 npm i instabot-core
@@ -40,28 +44,35 @@ or
 yarn add instabot-core
 ```
 
-## Usage
-```ts
-import { commentService } from 'instabot-core';
+Create an file `index.js`, run `npm init` on the terminal and this is the content of the `index.js`:
+
+```js
+const { commentService } = require('instabot-core');
 
 const commentForever = async () => {
-  while (true) {
-  await commentService(
+    while (true) {
+        await commentService(
             'https://www.instagram.com/p/pOstL1nk/',
-            'fulano',
+            'Jesus Cristo',
             'yourLogin',
             'yourStrongPass'
         );
-  }
+    }
 };
 
 try {
-  commentForever();
+    commentForever();
 } catch {
-  commentForever();
+    commentForever();
 }
 
 ```
+
+Now run the command:
+```bash
+node index.js
+```
+
 ## Cloning the repo
 > Clone this repository: `git clone https://github.com/hebertcisco/instabot-core`
 
