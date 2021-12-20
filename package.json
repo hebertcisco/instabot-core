@@ -38,7 +38,7 @@
     "dotenv": "^8.2.0",
     "pensador-api": "^1.0.0",
     "puppeteer": "^10.2.0",
-    "puppeteer-core": "^10.2.0"
+    "puppeteer-core": "^13.0.0"
   },
   "devDependencies": {
     "@types/axios": "0.14.0",
