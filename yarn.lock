@@ -1096,12 +1096,12 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-beautlog@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/beautlog/-/beautlog-0.2.0.tgz"
-  integrity sha512-I3Vlzc/+LPsH55/mQbt6G2ten+hI2dbFsK0XOp2Si+eDAhwGT5AVXlyC2bydVILX1icFXTCV9Cid1+R5a6BKNQ==
+beautlog@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/beautlog/-/beautlog-0.3.1.tgz"
+  integrity sha512-q3Ppno4J/7QSWqe0HswUQKjOL3af0SlI9d8+e0ilOxLrqViIbTU0+ISVsvJcz/uKHjMv2mMq2C6b80S7Y7wjVQ==
   dependencies:
-    chalk "^3.0.0"
+    chalk "^5.0.0"
     color-regex "^1.0.2"
     date-handle "^0.0.1"
     log-beautify "^1.2.0"
@@ -1320,6 +1320,11 @@ chalk@^4.0.0, chalk@^4.1.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+chalk@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/chalk/-/chalk-5.0.0.tgz"
+  integrity sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==
 
 char-regex@^1.0.2:
   version "1.0.2"
