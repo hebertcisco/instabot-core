@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/hebertcisco/instabot-core#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.24.0",
     "beautlog": "^0.0.9",
     "chrome-launcher": "^0.15.0",
     "chromium": "^3.0.2",
