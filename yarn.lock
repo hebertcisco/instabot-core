@@ -1045,13 +1045,14 @@
   dependencies:
     "tweetnacl" "^0.14.3"
 
-"beautlog@^0.0.9":
-  "integrity" "sha512-D8j8zAhaoBwLNtMY+8PHSZ+XaOZBO9oQ6yCcPsAjys6RWs43vA2KHLkSMpdT+Osa/jxcaNROxHrINEZh/PnShQ=="
-  "resolved" "https://registry.npmjs.org/beautlog/-/beautlog-0.0.9.tgz"
-  "version" "0.0.9"
+"beautlog@^0.2.0":
+  "integrity" "sha512-I3Vlzc/+LPsH55/mQbt6G2ten+hI2dbFsK0XOp2Si+eDAhwGT5AVXlyC2bydVILX1icFXTCV9Cid1+R5a6BKNQ=="
+  "resolved" "https://registry.npmjs.org/beautlog/-/beautlog-0.2.0.tgz"
+  "version" "0.2.0"
   dependencies:
     "chalk" "^3.0.0"
     "color-regex" "^1.0.2"
+    "date-handle" "^0.0.1"
     "log-beautify" "^1.2.0"
 
 "binary-extensions@^2.0.0":
@@ -1307,10 +1308,10 @@
   "resolved" "https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz"
   "version" "1.1.4"
 
-"chrome-launcher@^0.15.0":
-  "integrity" "sha512-ZQqX5kb9H0+jy1OqLnWampfocrtSZaGl7Ny3F9GRha85o4odbL8x55paUzh51UC7cEmZ5obp3H2Mm70uC2PpRA=="
-  "resolved" "https://registry.npmjs.org/chrome-launcher/-/chrome-launcher-0.15.0.tgz"
-  "version" "0.15.0"
+"chrome-launcher@^0.14.0":
+  "integrity" "sha512-W//HpflaW6qBGrmuskup7g+XJZN6w03ko9QSIe5CtcTal2u0up5SeReK3Ll1Why4Ey8dPkv8XSodZyHPnGbVHQ=="
+  "resolved" "https://registry.npmjs.org/chrome-launcher/-/chrome-launcher-0.14.0.tgz"
+  "version" "0.14.0"
   dependencies:
     "@types/node" "*"
     "escape-string-regexp" "^4.0.0"
@@ -1543,6 +1544,13 @@
     "abab" "^2.0.3"
     "whatwg-mimetype" "^2.3.0"
     "whatwg-url" "^8.0.0"
+
+"date-handle@^0.0.1":
+  "integrity" "sha512-w+QbUHCdb067uMYWhUCo4rXpC6lpXUov0GZHZBC/+jV1hSCAF0tSnhYYo508R5r8vQLO5g6wCpNu0TstmzatXg=="
+  "resolved" "https://registry.npmjs.org/date-handle/-/date-handle-0.0.1.tgz"
+  "version" "0.0.1"
+  dependencies:
+    "moment" "^2.29.1"
 
 "debug@^2.2.0":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
@@ -3613,6 +3621,11 @@
   "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
+
+"moment@^2.29.1":
+  "integrity" "sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ=="
+  "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.1.tgz"
+  "version" "2.29.1"
 
 "ms@^2.1.1", "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
