@@ -17,8 +17,8 @@
     <a href="https://github.com/hebertcisco/instabot-core">
       <img alt="GitHub Total Downloads" src="https://img.shields.io/npm/dt/instabot-core?color=336791&label=Total%20downloads" />
     </a>
-  <a href="https://github.com/hebertcisco/bvmf">
-      <img alt="GitHub release" src="https://img.shields.io/github/release/hebertcisco/bvmf.svg" />
+  <a href="https://github.com/hebertcisco/instabot-core">
+      <img alt="GitHub release" src="https://img.shields.io/github/release/hebertcisco/instabot-core.svg" />
     </a>
     <br />
     <br />
