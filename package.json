@@ -35,7 +35,7 @@
     "beautlog": "^0.3.0",
     "chrome-launcher": "^0.14.0",
     "chromium": "^3.0.2",
-    "dotenv": "^10.0.0",
+    "dotenv": "^14.0.0",
     "pensador-api": "^1.0.0",
     "puppeteer": "^13.0.0",
     "puppeteer-core": "^13.0.0"
@@ -46,7 +46,7 @@
     "@types/puppeteer": "5.4.4",
     "@typescript-eslint/eslint-plugin": "5.8.1",
     "@typescript-eslint/parser": "5.8.1",
-    "dotenv": "10.0.0",
+    "dotenv": "14.3.2",
     "eslint": "7.32.0",
     "eslint-plugin-jest": "25.3.4",
     "jest": "27.4.5",
