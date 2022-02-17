@@ -33,7 +33,7 @@
   "dependencies": {
     "axios": "^0.26.0",
     "beautlog": "^0.4.0",
-    "chrome-launcher": "^0.14.0",
+    "chrome-launcher": "^0.15.0",
     "chromium": "^3.0.2",
     "dotenv": "^16.0.0",
     "pensador-api": "^1.0.0",
