@@ -12,6 +12,6 @@ const instabot = {
   comment: commentService,
   getEmoji: getEmoji,
   randomInt: randomInt,
-  sleep: sleep
-}
-export default instabot
+  sleep: sleep,
+};
+export default instabot;
