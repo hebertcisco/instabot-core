@@ -52,26 +52,24 @@
 
 Create an file `index.js`, run `npm init` on the terminal and this is the content of the `index.js`:
 
-```js
-const { commentService } = require('instabot-core');
+```mjs
+import { commentService } from 'instabot-core';
+import * as dotenv from 'dotenv';
 
-const commentForever = async () => {
-    while (true) {
-        await commentService(
-            'https://www.instagram.com/p/pOstL1nk/',
-            'Jesus Cristo',
-            'yourLogin',
-            'yourStrongPass'
-        );
-    }
-};
+dotenv.config();
 
-try {
-    commentForever();
-} catch {
-    commentForever();
+function* commentForever() {
+    yield commentService(
+        'https://www.instagram.com/p/id-of-post/',
+        'Jesus Cisto',
+        String(process.env.IG_USERNAME),
+        String(process.env.IG_PASSWORD),
+    );
 }
 
+((async () => {
+    commentForever().next();
+}))();
 ```
 Install the dependency:
 
