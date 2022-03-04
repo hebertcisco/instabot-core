@@ -43,7 +43,7 @@
   "devDependencies": {
     "@types/axios": "0.14.0",
     "@types/dotenv": "^8.2.0",
-    "@types/jest": "27.4.0",
+    "@types/jest": "27.4.1",
     "@types/puppeteer": "^5.4.4",
     "@types/puppeteer-core": "^5.4.0",
     "@typescript-eslint/eslint-plugin": "5.12.0",
