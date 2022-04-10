@@ -1,12 +1,12 @@
 {
   "name": "instabot-core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Instagram comment generator robot",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "format": "prettier --write \"src/**/*.(js|ts|md|mjs|cjs)\"",
     "lint": "eslint src --ext .js,.ts",
     "lint:fix": "eslint src --fix --ext .js,.ts",
     "test": "jest --config jest.config.js",
