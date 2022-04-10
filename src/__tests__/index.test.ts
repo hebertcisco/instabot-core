@@ -1,6 +1,20 @@
-import { randomInt } from '../utils';
+import { randomInt, sleep } from '../utils';
 import instabot from '../index';
 
-it('randomInt Works', () => {
-  expect(randomInt(0, 1)).toBe(0);
+describe('test utils', () => {
+  it('randomInt Works', () => {
+    const int = randomInt(0, 0);
+    const expectInt = 0;
+    expect(int).toBe(expectInt);
+  });
+
+  it('sleep Works', async () => {
+    const runSleep = await sleep(1);
+    expect(runSleep).toBe(true);
+  });
+  it('getEmoji Works', async () => {
+    const getEmoji = await instabot.getEmoji(55);
+    const expectedEmoji = '"😯"';
+    expect(getEmoji).toBe(expectedEmoji);
+  });
 });
