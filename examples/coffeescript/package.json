@@ -1,0 +1,25 @@
+{
+  "name": "coffeescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "coffee --compile --transpile --inline-map index.coffee",
+    "start": "node .",
+    "prestart": "npm run build",
+    "poststart": "rimraf index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "coffeescript": "^2.6.1"
+  },
+  "dependencies": {
+    "instabot-core": "^1.0.7",
+    "rimraf": "^3.0.2"
+  }
+}
