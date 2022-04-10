@@ -1,4 +1,4 @@
-const { commentService } = require('../lib');
+const { commentService } = require('instabot-core');
 
 const { IG_LINK, PHRASE_AUTHOR, IG_USERNAME, IG_PASSWORD } = process.env;
 

@@ -58,18 +58,19 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
+const { IG_LINK, PHRASE_AUTHOR, IG_USERNAME, IG_PASSWORD } = process.env;
+
+
 function* commentForever() {
-    yield commentService(
-        'https://www.instagram.com/p/id-of-post/',
-        'Jesus Cisto',
-        String(process.env.IG_USERNAME),
-        String(process.env.IG_PASSWORD),
-    );
+    yield commentService({
+        link: IG_LINK,
+        author: PHRASE_AUTHOR,
+        loginInstagram: IG_USERNAME,
+        passwordInstagram: IG_PASSWORD,
+      });
 }
 
-((async () => {
-    commentForever().next();
-}))();
+commentForever().next();
 ```
 Install the dependency:
 
