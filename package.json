@@ -54,7 +54,7 @@
     "@typescript-eslint/parser": "5.23.0",
     "eslint": "8.15.0",
     "eslint-plugin-jest": "26.2.2",
-    "husky": "7.0.4",
+    "husky": "8.0.1",
     "jest": "28.1.0",
     "nodemon": "2.0.15",
     "prettier": "2.6.2",
