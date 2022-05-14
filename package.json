@@ -52,7 +52,7 @@
     "@types/puppeteer-core": "5.4.0",
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
-    "eslint": "8.13.0",
+    "eslint": "8.15.0",
     "eslint-plugin-jest": "26.2.2",
     "husky": "7.0.4",
     "jest": "28.0.3",
