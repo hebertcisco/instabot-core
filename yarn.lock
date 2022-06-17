@@ -1217,9 +1217,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001349:
-  version "1.0.30001355"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001355.tgz#e240b7177443ed0198c737a7f609536976701c77"
-  integrity sha512-Sd6pjJHF27LzCB7pT7qs+kuX2ndurzCzkpJl6Qct7LPSZ9jn0bkOA8mdgMgmqnQAWLVOOGjLpc+66V57eLtb1g==
+  version "1.0.30001356"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001356.tgz#cbf5fe7b33f90962bfbca532212ea478d4ec9de8"
+  integrity sha512-/30854bktMLhxtjieIxsrJBfs2gTM1pel6MXKF3K+RdIVJZcsn2A2QdhsuR4/p9+R204fZw0zCBBhktX8xWuyQ==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -1636,9 +1636,9 @@ duplexer3@^0.1.4:
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
 electron-to-chromium@^1.4.147:
-  version "1.4.158"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.158.tgz#abbdaaf64676bfa4bc0307522125db34424a0ada"
-  integrity sha512-gppO3/+Y6sP432HtvwvuU8S+YYYLH4PmAYvQwqUtt9HDOmEsBwQfLnK9T8+1NIKwAS1BEygIjTaATC4H5EzvxQ==
+  version "1.4.160"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.160.tgz#da54e24fddeaca52f37965c7bec1bd964c97d487"
+  integrity sha512-O1Z12YfyeX2LXYO7MdHIPazGXzLzQnr1ADW55U2ARQsJBPgfpJz3u+g3Mo2l1wSyfOCdiGqaX9qtV4XKZ0HNRA==
 
 emittery@^0.10.2:
   version "0.10.2"
@@ -3900,10 +3900,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.7.2:
-  version "4.7.2"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.7.2.tgz"
-  integrity sha512-Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==
+typescript@4.7.4:
+  version "4.7.4"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz"
+  integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
 
 unbzip2-stream@1.4.3:
   version "1.4.3"
