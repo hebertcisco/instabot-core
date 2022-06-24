@@ -1216,9 +1216,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001358:
-  version "1.0.30001358"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001358.tgz#473d35dabf5e448b463095cab7924e96ccfb8c00"
-  integrity sha512-hvp8PSRymk85R20bsDra7ZTCpSVGN/PAz9pSAjPSjKC+rNmnUk5vCRgJwiTT/O4feQ/yu/drvZYpKxxhbFuChw==
+  version "1.0.30001359"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001359.tgz#a1c1cbe1c2da9e689638813618b4219acbd4925e"
+  integrity sha512-Xln/BAsPzEuiVLgJ2/45IaqD9jShtk3Y33anKb4+yLwQzws3+v6odKfpgES/cDEaZMLzSChpIGdbOYtH9MyuHw==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -1558,6 +1558,11 @@ detect-newline@^3.0.0:
   resolved "https://registry.npmjs.org/detect-newline/-/detect-newline-3.1.0.tgz"
   integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
 
+devtools-protocol@0.0.1001819:
+  version "0.0.1001819"
+  resolved "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1001819.tgz"
+  integrity sha512-G6OsIFnv/rDyxSqBa2lDLR6thp9oJioLsb2Gl+LbQlyoA9/OBAkrTU9jiCcQ8Pnh7z4d6slDiLaogR5hzgJLmQ==
+
 devtools-protocol@0.0.982423:
   version "0.0.982423"
   resolved "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.982423.tgz"
@@ -1635,9 +1640,9 @@ duplexer3@^0.1.4:
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
 electron-to-chromium@^1.4.164:
-  version "1.4.167"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.167.tgz#72424aebc85df12c5331d37b1bcfd1ae01322c55"
-  integrity sha512-lPHuHXBwpkr4RcfaZBKm6TKOWG/1N9mVggUpP4fY3l1JIUU2x4fkM8928smYdZ5lF+6KCTAxo1aK9JmqT+X71Q==
+  version "1.4.168"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.168.tgz#8f6bda320a434ac963850d18e41d83220973cbdd"
+  integrity sha512-yz247hclRBaP8ABB1hf9kL7AMfa+yC2hB9F3XF8Y87VWMnYgq4QYvV6acRACcDkTDxfGQ4GYK/aZPQiuFMGbaA==
 
 emittery@^0.10.2:
   version "0.10.2"
@@ -3382,14 +3387,14 @@ puppeteer-core@^14.0.0:
     unbzip2-stream "1.4.3"
     ws "8.6.0"
 
-puppeteer@^14.0.0:
-  version "14.1.0"
-  resolved "https://registry.npmjs.org/puppeteer/-/puppeteer-14.1.0.tgz"
-  integrity sha512-T3eB4f6k9HVttYvyy8drGIKb04M+vxhepqM7qqcVCBTNT3T6M9cUaJT4k7P+a6wSonObJSJUP98JkPDQG+3fJw==
+puppeteer@^15.0.0:
+  version "15.0.0"
+  resolved "https://registry.npmjs.org/puppeteer/-/puppeteer-15.0.0.tgz"
+  integrity sha512-pMtswCW0/V4OkkzDmmb2FJKrUPh2uaB4pTVQEHT7833GfewVdKdbnSviVdfvRt3XhrsJkTmzh7FAUckW9Y5lZA==
   dependencies:
     cross-fetch "3.1.5"
     debug "4.3.4"
-    devtools-protocol "0.0.982423"
+    devtools-protocol "0.0.1001819"
     extract-zip "2.0.1"
     https-proxy-agent "5.0.1"
     pkg-dir "4.2.0"
@@ -3398,7 +3403,7 @@ puppeteer@^14.0.0:
     rimraf "3.0.2"
     tar-fs "2.1.1"
     unbzip2-stream "1.4.3"
-    ws "8.6.0"
+    ws "8.7.0"
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -4060,6 +4065,11 @@ ws@8.6.0:
   version "8.6.0"
   resolved "https://registry.npmjs.org/ws/-/ws-8.6.0.tgz"
   integrity sha512-AzmM3aH3gk0aX7/rZLYvjdvZooofDu3fFOzGqcSnQ1tOcTWwhM/o+q++E8mAyVVIyUdajrkzWUGftaVSDLn1bw==
+
+ws@8.7.0:
+  version "8.7.0"
+  resolved "https://registry.npmjs.org/ws/-/ws-8.7.0.tgz"
+  integrity sha512-c2gsP0PRwcLFzUiA8Mkr37/MI7ilIlHQxaEAtd0uNMbVMoy8puJyafRlm0bV9MbGSabUPeLrRRaqIBcFcA2Pqg==
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
