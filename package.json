@@ -42,7 +42,7 @@
     "dotenv": "^16.0.0",
     "pensador-promise": "^0.3.0",
     "puppeteer": "^15.0.0",
-    "puppeteer-core": "^14.0.0"
+    "puppeteer-core": "^15.0.0"
   },
   "devDependencies": {
     "@types/axios": "0.14.0",
