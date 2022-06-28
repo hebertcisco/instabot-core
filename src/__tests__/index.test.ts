@@ -13,8 +13,8 @@ describe('test utils', () => {
     expect(runSleep).toBe(true);
   });
   it('getEmoji Works', async () => {
-    const getEmoji = await instabot.getEmoji(55);
-    const expectedEmoji = '"😯"';
+    const getEmoji = await instabot.getEmoji(0);
+    const expectedEmoji = '😬';
     expect(getEmoji).toBe(expectedEmoji);
   });
 });

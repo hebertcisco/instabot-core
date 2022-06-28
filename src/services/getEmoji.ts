@@ -1,31 +1,24 @@
 import Console from 'beautlog';
-import axios from 'axios';
+import { request } from 'undici';
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-async function getEmoji(rand: number): Promise<any> {
+type EmojiList = {
+  symbol: string;
+};
+export async function getEmoji(rand: number): Promise<string> {
   const random = rand || 0;
-  const config: any = {
-    method: 'get',
-    url: 'https://emojiserver.now.sh',
-    headers: {},
-  };
-  let emojiList;
   try {
-    await axios(config)
-      .then(function (response) {
-        const data = response.data.map((emoji: { symbol: any }) => {
-          return emoji.symbol;
-        });
-
-        emojiList = JSON.stringify(data[random]);
-      })
-      .catch(function (error) {
-        Console.error(error);
-      });
+    const response = await request('https://emojiserver.vercel.app');
+    const { statusCode } = response;
+    void statusCode;
+    const body: EmojiList[] = await response.body.json();
+    const data = body.map((emoji: EmojiList) => {
+      return emoji.symbol.toString();
+    });
+    return data[random];
   } catch (error) {
     Console.error(error);
+    throw error;
   }
-  return emojiList;
 }
 
-export { getEmoji };
+export default getEmoji;

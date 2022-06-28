@@ -1,10 +1,11 @@
-import { getEmoji } from '../services/getEmoji';
 import pensador from 'pensador-promise';
-import { randomInt, sleep } from '../utils';
 import puppeteer from 'puppeteer';
 import Console from 'beautlog';
-import { date } from 'date-handle';
-import { TypeCommentArgs } from '../@types/core/comment.service';
+
+import { getEmoji } from '../services/getEmoji';
+import { randomInt, sleep } from '../utils';
+
+import type { TypeCommentArgs } from '../@types/core/comment.service';
 
 export const commentService = async (args: TypeCommentArgs): Promise<void> => {
   const { link, author, loginInstagram, passwordInstagram } = args;
@@ -15,7 +16,7 @@ export const commentService = async (args: TypeCommentArgs): Promise<void> => {
     defaultViewport: null,
   });
 
-  Console.WriteLine('Starting...');
+  Console.log('Starting...');
 
   try {
     Console.ok('Started!');
@@ -70,7 +71,7 @@ export const commentService = async (args: TypeCommentArgs): Promise<void> => {
       await page.click("button[type='submit']");
     }
     await browser.close();
-    Console.WriteLine(date.nowFully);
+    Console.log(new Date().toDateString());
   } catch (err) {
     Console.error(err);
   } finally {
