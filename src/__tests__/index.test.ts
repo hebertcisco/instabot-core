@@ -12,9 +12,4 @@ describe('test utils', () => {
     const runSleep = await sleep(1);
     expect(runSleep).toBe(true);
   });
-  it('getEmoji Works', async () => {
-    const getEmoji = await instabot.getEmoji(0);
-    const expectedEmoji = '😬';
-    expect(getEmoji).toBe(expectedEmoji);
-  });
 });
